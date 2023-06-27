@@ -35,16 +35,58 @@ namespace Tron.Net.Protocol {
             "YWRkcmVzcxgPIAEoDCIwChdXaXRoZHJhd0JhbGFuY2VDb250cmFjdBIVCg1v",
             "d25lcl9hZGRyZXNzGAEgASgMIk0KEFRyYW5zZmVyQ29udHJhY3QSFQoNb3du",
             "ZXJfYWRkcmVzcxgBIAEoDBISCgp0b19hZGRyZXNzGAIgASgMEg4KBmFtb3Vu",
-            "dBgDIAEoA0JZChhvcmcudHJvbi5wcm90b3MuY29udHJhY3RaKWdpdGh1Yi5j",
-            "b20vdHJvbnByb3RvY29sL2dycGMtZ2F0ZXdheS9jb3JlqgIRVHJvbi5OZXQu",
-            "UHJvdG9jb2xiBnByb3RvMw=="));
+            "dBgDIAEoAyLjAQoXVHJhbnNhY3Rpb25CYWxhbmNlVHJhY2USHgoWdHJhbnNh",
+            "Y3Rpb25faWRlbnRpZmllchgBIAEoDBI+CglvcGVyYXRpb24YAiADKAsyKy5w",
+            "cm90b2NvbC5UcmFuc2FjdGlvbkJhbGFuY2VUcmFjZS5PcGVyYXRpb24SDAoE",
+            "dHlwZRgDIAEoCRIOCgZzdGF0dXMYBCABKAkaSgoJT3BlcmF0aW9uEhwKFG9w",
+            "ZXJhdGlvbl9pZGVudGlmaWVyGAEgASgDEg8KB2FkZHJlc3MYAiABKAwSDgoG",
+            "YW1vdW50GAMgASgDIuQBChFCbG9ja0JhbGFuY2VUcmFjZRJFChBibG9ja19p",
+            "ZGVudGlmaWVyGAEgASgLMisucHJvdG9jb2wuQmxvY2tCYWxhbmNlVHJhY2Uu",
+            "QmxvY2tJZGVudGlmaWVyEhEKCXRpbWVzdGFtcBgCIAEoAxJEChl0cmFuc2Fj",
+            "dGlvbl9iYWxhbmNlX3RyYWNlGAMgAygLMiEucHJvdG9jb2wuVHJhbnNhY3Rp",
+            "b25CYWxhbmNlVHJhY2UaLwoPQmxvY2tJZGVudGlmaWVyEgwKBGhhc2gYASAB",
+            "KAwSDgoGbnVtYmVyGAIgASgDIjQKDEFjY291bnRUcmFjZRIPCgdiYWxhbmNl",
+            "GAEgASgDEhMKC3BsYWNlaG9sZGVyGGMgASgDIiQKEUFjY291bnRJZGVudGlm",
+            "aWVyEg8KB2FkZHJlc3MYASABKAwilwEKFUFjY291bnRCYWxhbmNlUmVxdWVz",
+            "dBI3ChJhY2NvdW50X2lkZW50aWZpZXIYASABKAsyGy5wcm90b2NvbC5BY2Nv",
+            "dW50SWRlbnRpZmllchJFChBibG9ja19pZGVudGlmaWVyGAIgASgLMisucHJv",
+            "dG9jb2wuQmxvY2tCYWxhbmNlVHJhY2UuQmxvY2tJZGVudGlmaWVyInAKFkFj",
+            "Y291bnRCYWxhbmNlUmVzcG9uc2USDwoHYmFsYW5jZRgBIAEoAxJFChBibG9j",
+            "a19pZGVudGlmaWVyGAIgASgLMisucHJvdG9jb2wuQmxvY2tCYWxhbmNlVHJh",
+            "Y2UuQmxvY2tJZGVudGlmaWVyInIKF0ZyZWV6ZUJhbGFuY2VWMkNvbnRyYWN0",
+            "EhUKDW93bmVyX2FkZHJlc3MYASABKAwSFgoOZnJvemVuX2JhbGFuY2UYAiAB",
+            "KAMSKAoIcmVzb3VyY2UYAyABKA4yFi5wcm90b2NvbC5SZXNvdXJjZUNvZGUi",
+            "dgoZVW5mcmVlemVCYWxhbmNlVjJDb250cmFjdBIVCg1vd25lcl9hZGRyZXNz",
+            "GAEgASgMEhgKEHVuZnJlZXplX2JhbGFuY2UYAiABKAMSKAoIcmVzb3VyY2UY",
+            "AyABKA4yFi5wcm90b2NvbC5SZXNvdXJjZUNvZGUiNwoeV2l0aGRyYXdFeHBp",
+            "cmVVbmZyZWV6ZUNvbnRyYWN0EhUKDW93bmVyX2FkZHJlc3MYASABKAwilAEK",
+            "GERlbGVnYXRlUmVzb3VyY2VDb250cmFjdBIVCg1vd25lcl9hZGRyZXNzGAEg",
+            "ASgMEigKCHJlc291cmNlGAIgASgOMhYucHJvdG9jb2wuUmVzb3VyY2VDb2Rl",
+            "Eg8KB2JhbGFuY2UYAyABKAMSGAoQcmVjZWl2ZXJfYWRkcmVzcxgEIAEoDBIM",
+            "CgRsb2NrGAUgASgIIogBChpVbkRlbGVnYXRlUmVzb3VyY2VDb250cmFjdBIV",
+            "Cg1vd25lcl9hZGRyZXNzGAEgASgMEigKCHJlc291cmNlGAIgASgOMhYucHJv",
+            "dG9jb2wuUmVzb3VyY2VDb2RlEg8KB2JhbGFuY2UYAyABKAMSGAoQcmVjZWl2",
+            "ZXJfYWRkcmVzcxgEIAEoDEJZChhvcmcudHJvbi5wcm90b3MuY29udHJhY3Ra",
+            "KWdpdGh1Yi5jb20vdHJvbnByb3RvY29sL2dycGMtZ2F0ZXdheS9jb3JlqgIR",
+            "VHJvbi5OZXQuUHJvdG9jb2xiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Tron.Net.Protocol.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.FreezeBalanceContract), global::Tron.Net.Protocol.FreezeBalanceContract.Parser, new[]{ "OwnerAddress", "FrozenBalance", "FrozenDuration", "Resource", "ReceiverAddress" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.UnfreezeBalanceContract), global::Tron.Net.Protocol.UnfreezeBalanceContract.Parser, new[]{ "OwnerAddress", "Resource", "ReceiverAddress" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.WithdrawBalanceContract), global::Tron.Net.Protocol.WithdrawBalanceContract.Parser, new[]{ "OwnerAddress" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.TransferContract), global::Tron.Net.Protocol.TransferContract.Parser, new[]{ "OwnerAddress", "ToAddress", "Amount" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.TransferContract), global::Tron.Net.Protocol.TransferContract.Parser, new[]{ "OwnerAddress", "ToAddress", "Amount" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.TransactionBalanceTrace), global::Tron.Net.Protocol.TransactionBalanceTrace.Parser, new[]{ "TransactionIdentifier", "Operation", "Type", "Status" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.TransactionBalanceTrace.Types.Operation), global::Tron.Net.Protocol.TransactionBalanceTrace.Types.Operation.Parser, new[]{ "OperationIdentifier", "Address", "Amount" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.BlockBalanceTrace), global::Tron.Net.Protocol.BlockBalanceTrace.Parser, new[]{ "BlockIdentifier", "Timestamp", "TransactionBalanceTrace" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.BlockBalanceTrace.Types.BlockIdentifier), global::Tron.Net.Protocol.BlockBalanceTrace.Types.BlockIdentifier.Parser, new[]{ "Hash", "Number" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.AccountTrace), global::Tron.Net.Protocol.AccountTrace.Parser, new[]{ "Balance", "Placeholder" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.AccountIdentifier), global::Tron.Net.Protocol.AccountIdentifier.Parser, new[]{ "Address" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.AccountBalanceRequest), global::Tron.Net.Protocol.AccountBalanceRequest.Parser, new[]{ "AccountIdentifier", "BlockIdentifier" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.AccountBalanceResponse), global::Tron.Net.Protocol.AccountBalanceResponse.Parser, new[]{ "Balance", "BlockIdentifier" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.FreezeBalanceV2Contract), global::Tron.Net.Protocol.FreezeBalanceV2Contract.Parser, new[]{ "OwnerAddress", "FrozenBalance", "Resource" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.UnfreezeBalanceV2Contract), global::Tron.Net.Protocol.UnfreezeBalanceV2Contract.Parser, new[]{ "OwnerAddress", "UnfreezeBalance", "Resource" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.WithdrawExpireUnfreezeContract), global::Tron.Net.Protocol.WithdrawExpireUnfreezeContract.Parser, new[]{ "OwnerAddress" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.DelegateResourceContract), global::Tron.Net.Protocol.DelegateResourceContract.Parser, new[]{ "OwnerAddress", "Resource", "Balance", "ReceiverAddress", "Lock" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tron.Net.Protocol.UnDelegateResourceContract), global::Tron.Net.Protocol.UnDelegateResourceContract.Parser, new[]{ "OwnerAddress", "Resource", "Balance", "ReceiverAddress" }, null, null, null, null)
           }));
     }
     #endregion
@@ -783,6 +825,2324 @@ namespace Tron.Net.Protocol {
           }
           case 24: {
             Amount = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class TransactionBalanceTrace : pb::IMessage<TransactionBalanceTrace> {
+    private static readonly pb::MessageParser<TransactionBalanceTrace> _parser = new pb::MessageParser<TransactionBalanceTrace>(() => new TransactionBalanceTrace());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<TransactionBalanceTrace> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Tron.Net.Protocol.BalanceContractReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public TransactionBalanceTrace() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public TransactionBalanceTrace(TransactionBalanceTrace other) : this() {
+      transactionIdentifier_ = other.transactionIdentifier_;
+      operation_ = other.operation_.Clone();
+      type_ = other.type_;
+      status_ = other.status_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public TransactionBalanceTrace Clone() {
+      return new TransactionBalanceTrace(this);
+    }
+
+    /// <summary>Field number for the "transaction_identifier" field.</summary>
+    public const int TransactionIdentifierFieldNumber = 1;
+    private pb::ByteString transactionIdentifier_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pb::ByteString TransactionIdentifier {
+      get { return transactionIdentifier_; }
+      set {
+        transactionIdentifier_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "operation" field.</summary>
+    public const int OperationFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::Tron.Net.Protocol.TransactionBalanceTrace.Types.Operation> _repeated_operation_codec
+        = pb::FieldCodec.ForMessage(18, global::Tron.Net.Protocol.TransactionBalanceTrace.Types.Operation.Parser);
+    private readonly pbc::RepeatedField<global::Tron.Net.Protocol.TransactionBalanceTrace.Types.Operation> operation_ = new pbc::RepeatedField<global::Tron.Net.Protocol.TransactionBalanceTrace.Types.Operation>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Tron.Net.Protocol.TransactionBalanceTrace.Types.Operation> Operation {
+      get { return operation_; }
+    }
+
+    /// <summary>Field number for the "type" field.</summary>
+    public const int TypeFieldNumber = 3;
+    private string type_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Type {
+      get { return type_; }
+      set {
+        type_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "status" field.</summary>
+    public const int StatusFieldNumber = 4;
+    private string status_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Status {
+      get { return status_; }
+      set {
+        status_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as TransactionBalanceTrace);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(TransactionBalanceTrace other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (TransactionIdentifier != other.TransactionIdentifier) return false;
+      if(!operation_.Equals(other.operation_)) return false;
+      if (Type != other.Type) return false;
+      if (Status != other.Status) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (TransactionIdentifier.Length != 0) hash ^= TransactionIdentifier.GetHashCode();
+      hash ^= operation_.GetHashCode();
+      if (Type.Length != 0) hash ^= Type.GetHashCode();
+      if (Status.Length != 0) hash ^= Status.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (TransactionIdentifier.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(TransactionIdentifier);
+      }
+      operation_.WriteTo(output, _repeated_operation_codec);
+      if (Type.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Type);
+      }
+      if (Status.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Status);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (TransactionIdentifier.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(TransactionIdentifier);
+      }
+      size += operation_.CalculateSize(_repeated_operation_codec);
+      if (Type.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Type);
+      }
+      if (Status.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Status);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(TransactionBalanceTrace other) {
+      if (other == null) {
+        return;
+      }
+      if (other.TransactionIdentifier.Length != 0) {
+        TransactionIdentifier = other.TransactionIdentifier;
+      }
+      operation_.Add(other.operation_);
+      if (other.Type.Length != 0) {
+        Type = other.Type;
+      }
+      if (other.Status.Length != 0) {
+        Status = other.Status;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            TransactionIdentifier = input.ReadBytes();
+            break;
+          }
+          case 18: {
+            operation_.AddEntriesFrom(input, _repeated_operation_codec);
+            break;
+          }
+          case 26: {
+            Type = input.ReadString();
+            break;
+          }
+          case 34: {
+            Status = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the TransactionBalanceTrace message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public sealed partial class Operation : pb::IMessage<Operation> {
+        private static readonly pb::MessageParser<Operation> _parser = new pb::MessageParser<Operation>(() => new Operation());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<Operation> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Tron.Net.Protocol.TransactionBalanceTrace.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Operation() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Operation(Operation other) : this() {
+          operationIdentifier_ = other.operationIdentifier_;
+          address_ = other.address_;
+          amount_ = other.amount_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Operation Clone() {
+          return new Operation(this);
+        }
+
+        /// <summary>Field number for the "operation_identifier" field.</summary>
+        public const int OperationIdentifierFieldNumber = 1;
+        private long operationIdentifier_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public long OperationIdentifier {
+          get { return operationIdentifier_; }
+          set {
+            operationIdentifier_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "address" field.</summary>
+        public const int AddressFieldNumber = 2;
+        private pb::ByteString address_ = pb::ByteString.Empty;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public pb::ByteString Address {
+          get { return address_; }
+          set {
+            address_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "amount" field.</summary>
+        public const int AmountFieldNumber = 3;
+        private long amount_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public long Amount {
+          get { return amount_; }
+          set {
+            amount_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as Operation);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(Operation other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (OperationIdentifier != other.OperationIdentifier) return false;
+          if (Address != other.Address) return false;
+          if (Amount != other.Amount) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (OperationIdentifier != 0L) hash ^= OperationIdentifier.GetHashCode();
+          if (Address.Length != 0) hash ^= Address.GetHashCode();
+          if (Amount != 0L) hash ^= Amount.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (OperationIdentifier != 0L) {
+            output.WriteRawTag(8);
+            output.WriteInt64(OperationIdentifier);
+          }
+          if (Address.Length != 0) {
+            output.WriteRawTag(18);
+            output.WriteBytes(Address);
+          }
+          if (Amount != 0L) {
+            output.WriteRawTag(24);
+            output.WriteInt64(Amount);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (OperationIdentifier != 0L) {
+            size += 1 + pb::CodedOutputStream.ComputeInt64Size(OperationIdentifier);
+          }
+          if (Address.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeBytesSize(Address);
+          }
+          if (Amount != 0L) {
+            size += 1 + pb::CodedOutputStream.ComputeInt64Size(Amount);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(Operation other) {
+          if (other == null) {
+            return;
+          }
+          if (other.OperationIdentifier != 0L) {
+            OperationIdentifier = other.OperationIdentifier;
+          }
+          if (other.Address.Length != 0) {
+            Address = other.Address;
+          }
+          if (other.Amount != 0L) {
+            Amount = other.Amount;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 8: {
+                OperationIdentifier = input.ReadInt64();
+                break;
+              }
+              case 18: {
+                Address = input.ReadBytes();
+                break;
+              }
+              case 24: {
+                Amount = input.ReadInt64();
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
+
+  }
+
+  public sealed partial class BlockBalanceTrace : pb::IMessage<BlockBalanceTrace> {
+    private static readonly pb::MessageParser<BlockBalanceTrace> _parser = new pb::MessageParser<BlockBalanceTrace>(() => new BlockBalanceTrace());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<BlockBalanceTrace> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Tron.Net.Protocol.BalanceContractReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public BlockBalanceTrace() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public BlockBalanceTrace(BlockBalanceTrace other) : this() {
+      blockIdentifier_ = other.blockIdentifier_ != null ? other.blockIdentifier_.Clone() : null;
+      timestamp_ = other.timestamp_;
+      transactionBalanceTrace_ = other.transactionBalanceTrace_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public BlockBalanceTrace Clone() {
+      return new BlockBalanceTrace(this);
+    }
+
+    /// <summary>Field number for the "block_identifier" field.</summary>
+    public const int BlockIdentifierFieldNumber = 1;
+    private global::Tron.Net.Protocol.BlockBalanceTrace.Types.BlockIdentifier blockIdentifier_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Tron.Net.Protocol.BlockBalanceTrace.Types.BlockIdentifier BlockIdentifier {
+      get { return blockIdentifier_; }
+      set {
+        blockIdentifier_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "timestamp" field.</summary>
+    public const int TimestampFieldNumber = 2;
+    private long timestamp_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long Timestamp {
+      get { return timestamp_; }
+      set {
+        timestamp_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "transaction_balance_trace" field.</summary>
+    public const int TransactionBalanceTraceFieldNumber = 3;
+    private static readonly pb::FieldCodec<global::Tron.Net.Protocol.TransactionBalanceTrace> _repeated_transactionBalanceTrace_codec
+        = pb::FieldCodec.ForMessage(26, global::Tron.Net.Protocol.TransactionBalanceTrace.Parser);
+    private readonly pbc::RepeatedField<global::Tron.Net.Protocol.TransactionBalanceTrace> transactionBalanceTrace_ = new pbc::RepeatedField<global::Tron.Net.Protocol.TransactionBalanceTrace>();
+    /// <summary>
+    ///  BlockIdentifier parent_block_identifier = 4;
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Tron.Net.Protocol.TransactionBalanceTrace> TransactionBalanceTrace {
+      get { return transactionBalanceTrace_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as BlockBalanceTrace);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(BlockBalanceTrace other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(BlockIdentifier, other.BlockIdentifier)) return false;
+      if (Timestamp != other.Timestamp) return false;
+      if(!transactionBalanceTrace_.Equals(other.transactionBalanceTrace_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (blockIdentifier_ != null) hash ^= BlockIdentifier.GetHashCode();
+      if (Timestamp != 0L) hash ^= Timestamp.GetHashCode();
+      hash ^= transactionBalanceTrace_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (blockIdentifier_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(BlockIdentifier);
+      }
+      if (Timestamp != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(Timestamp);
+      }
+      transactionBalanceTrace_.WriteTo(output, _repeated_transactionBalanceTrace_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (blockIdentifier_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(BlockIdentifier);
+      }
+      if (Timestamp != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Timestamp);
+      }
+      size += transactionBalanceTrace_.CalculateSize(_repeated_transactionBalanceTrace_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(BlockBalanceTrace other) {
+      if (other == null) {
+        return;
+      }
+      if (other.blockIdentifier_ != null) {
+        if (blockIdentifier_ == null) {
+          BlockIdentifier = new global::Tron.Net.Protocol.BlockBalanceTrace.Types.BlockIdentifier();
+        }
+        BlockIdentifier.MergeFrom(other.BlockIdentifier);
+      }
+      if (other.Timestamp != 0L) {
+        Timestamp = other.Timestamp;
+      }
+      transactionBalanceTrace_.Add(other.transactionBalanceTrace_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (blockIdentifier_ == null) {
+              BlockIdentifier = new global::Tron.Net.Protocol.BlockBalanceTrace.Types.BlockIdentifier();
+            }
+            input.ReadMessage(BlockIdentifier);
+            break;
+          }
+          case 16: {
+            Timestamp = input.ReadInt64();
+            break;
+          }
+          case 26: {
+            transactionBalanceTrace_.AddEntriesFrom(input, _repeated_transactionBalanceTrace_codec);
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the BlockBalanceTrace message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public sealed partial class BlockIdentifier : pb::IMessage<BlockIdentifier> {
+        private static readonly pb::MessageParser<BlockIdentifier> _parser = new pb::MessageParser<BlockIdentifier>(() => new BlockIdentifier());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<BlockIdentifier> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Tron.Net.Protocol.BlockBalanceTrace.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public BlockIdentifier() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public BlockIdentifier(BlockIdentifier other) : this() {
+          hash_ = other.hash_;
+          number_ = other.number_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public BlockIdentifier Clone() {
+          return new BlockIdentifier(this);
+        }
+
+        /// <summary>Field number for the "hash" field.</summary>
+        public const int HashFieldNumber = 1;
+        private pb::ByteString hash_ = pb::ByteString.Empty;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public pb::ByteString Hash {
+          get { return hash_; }
+          set {
+            hash_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "number" field.</summary>
+        public const int NumberFieldNumber = 2;
+        private long number_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public long Number {
+          get { return number_; }
+          set {
+            number_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as BlockIdentifier);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(BlockIdentifier other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Hash != other.Hash) return false;
+          if (Number != other.Number) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Hash.Length != 0) hash ^= Hash.GetHashCode();
+          if (Number != 0L) hash ^= Number.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (Hash.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteBytes(Hash);
+          }
+          if (Number != 0L) {
+            output.WriteRawTag(16);
+            output.WriteInt64(Number);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (Hash.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeBytesSize(Hash);
+          }
+          if (Number != 0L) {
+            size += 1 + pb::CodedOutputStream.ComputeInt64Size(Number);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(BlockIdentifier other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Hash.Length != 0) {
+            Hash = other.Hash;
+          }
+          if (other.Number != 0L) {
+            Number = other.Number;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                Hash = input.ReadBytes();
+                break;
+              }
+              case 16: {
+                Number = input.ReadInt64();
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
+
+  }
+
+  public sealed partial class AccountTrace : pb::IMessage<AccountTrace> {
+    private static readonly pb::MessageParser<AccountTrace> _parser = new pb::MessageParser<AccountTrace>(() => new AccountTrace());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<AccountTrace> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Tron.Net.Protocol.BalanceContractReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AccountTrace() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AccountTrace(AccountTrace other) : this() {
+      balance_ = other.balance_;
+      placeholder_ = other.placeholder_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AccountTrace Clone() {
+      return new AccountTrace(this);
+    }
+
+    /// <summary>Field number for the "balance" field.</summary>
+    public const int BalanceFieldNumber = 1;
+    private long balance_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long Balance {
+      get { return balance_; }
+      set {
+        balance_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "placeholder" field.</summary>
+    public const int PlaceholderFieldNumber = 99;
+    private long placeholder_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long Placeholder {
+      get { return placeholder_; }
+      set {
+        placeholder_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as AccountTrace);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(AccountTrace other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Balance != other.Balance) return false;
+      if (Placeholder != other.Placeholder) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Balance != 0L) hash ^= Balance.GetHashCode();
+      if (Placeholder != 0L) hash ^= Placeholder.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Balance != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(Balance);
+      }
+      if (Placeholder != 0L) {
+        output.WriteRawTag(152, 6);
+        output.WriteInt64(Placeholder);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Balance != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Balance);
+      }
+      if (Placeholder != 0L) {
+        size += 2 + pb::CodedOutputStream.ComputeInt64Size(Placeholder);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(AccountTrace other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Balance != 0L) {
+        Balance = other.Balance;
+      }
+      if (other.Placeholder != 0L) {
+        Placeholder = other.Placeholder;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Balance = input.ReadInt64();
+            break;
+          }
+          case 792: {
+            Placeholder = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class AccountIdentifier : pb::IMessage<AccountIdentifier> {
+    private static readonly pb::MessageParser<AccountIdentifier> _parser = new pb::MessageParser<AccountIdentifier>(() => new AccountIdentifier());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<AccountIdentifier> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Tron.Net.Protocol.BalanceContractReflection.Descriptor.MessageTypes[7]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AccountIdentifier() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AccountIdentifier(AccountIdentifier other) : this() {
+      address_ = other.address_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AccountIdentifier Clone() {
+      return new AccountIdentifier(this);
+    }
+
+    /// <summary>Field number for the "address" field.</summary>
+    public const int AddressFieldNumber = 1;
+    private pb::ByteString address_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pb::ByteString Address {
+      get { return address_; }
+      set {
+        address_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as AccountIdentifier);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(AccountIdentifier other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Address != other.Address) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Address.Length != 0) hash ^= Address.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Address.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(Address);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Address.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(Address);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(AccountIdentifier other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Address.Length != 0) {
+        Address = other.Address;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Address = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class AccountBalanceRequest : pb::IMessage<AccountBalanceRequest> {
+    private static readonly pb::MessageParser<AccountBalanceRequest> _parser = new pb::MessageParser<AccountBalanceRequest>(() => new AccountBalanceRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<AccountBalanceRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Tron.Net.Protocol.BalanceContractReflection.Descriptor.MessageTypes[8]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AccountBalanceRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AccountBalanceRequest(AccountBalanceRequest other) : this() {
+      accountIdentifier_ = other.accountIdentifier_ != null ? other.accountIdentifier_.Clone() : null;
+      blockIdentifier_ = other.blockIdentifier_ != null ? other.blockIdentifier_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AccountBalanceRequest Clone() {
+      return new AccountBalanceRequest(this);
+    }
+
+    /// <summary>Field number for the "account_identifier" field.</summary>
+    public const int AccountIdentifierFieldNumber = 1;
+    private global::Tron.Net.Protocol.AccountIdentifier accountIdentifier_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Tron.Net.Protocol.AccountIdentifier AccountIdentifier {
+      get { return accountIdentifier_; }
+      set {
+        accountIdentifier_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "block_identifier" field.</summary>
+    public const int BlockIdentifierFieldNumber = 2;
+    private global::Tron.Net.Protocol.BlockBalanceTrace.Types.BlockIdentifier blockIdentifier_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Tron.Net.Protocol.BlockBalanceTrace.Types.BlockIdentifier BlockIdentifier {
+      get { return blockIdentifier_; }
+      set {
+        blockIdentifier_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as AccountBalanceRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(AccountBalanceRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(AccountIdentifier, other.AccountIdentifier)) return false;
+      if (!object.Equals(BlockIdentifier, other.BlockIdentifier)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (accountIdentifier_ != null) hash ^= AccountIdentifier.GetHashCode();
+      if (blockIdentifier_ != null) hash ^= BlockIdentifier.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (accountIdentifier_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(AccountIdentifier);
+      }
+      if (blockIdentifier_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(BlockIdentifier);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (accountIdentifier_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AccountIdentifier);
+      }
+      if (blockIdentifier_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(BlockIdentifier);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(AccountBalanceRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.accountIdentifier_ != null) {
+        if (accountIdentifier_ == null) {
+          AccountIdentifier = new global::Tron.Net.Protocol.AccountIdentifier();
+        }
+        AccountIdentifier.MergeFrom(other.AccountIdentifier);
+      }
+      if (other.blockIdentifier_ != null) {
+        if (blockIdentifier_ == null) {
+          BlockIdentifier = new global::Tron.Net.Protocol.BlockBalanceTrace.Types.BlockIdentifier();
+        }
+        BlockIdentifier.MergeFrom(other.BlockIdentifier);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (accountIdentifier_ == null) {
+              AccountIdentifier = new global::Tron.Net.Protocol.AccountIdentifier();
+            }
+            input.ReadMessage(AccountIdentifier);
+            break;
+          }
+          case 18: {
+            if (blockIdentifier_ == null) {
+              BlockIdentifier = new global::Tron.Net.Protocol.BlockBalanceTrace.Types.BlockIdentifier();
+            }
+            input.ReadMessage(BlockIdentifier);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class AccountBalanceResponse : pb::IMessage<AccountBalanceResponse> {
+    private static readonly pb::MessageParser<AccountBalanceResponse> _parser = new pb::MessageParser<AccountBalanceResponse>(() => new AccountBalanceResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<AccountBalanceResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Tron.Net.Protocol.BalanceContractReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AccountBalanceResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AccountBalanceResponse(AccountBalanceResponse other) : this() {
+      balance_ = other.balance_;
+      blockIdentifier_ = other.blockIdentifier_ != null ? other.blockIdentifier_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public AccountBalanceResponse Clone() {
+      return new AccountBalanceResponse(this);
+    }
+
+    /// <summary>Field number for the "balance" field.</summary>
+    public const int BalanceFieldNumber = 1;
+    private long balance_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long Balance {
+      get { return balance_; }
+      set {
+        balance_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "block_identifier" field.</summary>
+    public const int BlockIdentifierFieldNumber = 2;
+    private global::Tron.Net.Protocol.BlockBalanceTrace.Types.BlockIdentifier blockIdentifier_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Tron.Net.Protocol.BlockBalanceTrace.Types.BlockIdentifier BlockIdentifier {
+      get { return blockIdentifier_; }
+      set {
+        blockIdentifier_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as AccountBalanceResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(AccountBalanceResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Balance != other.Balance) return false;
+      if (!object.Equals(BlockIdentifier, other.BlockIdentifier)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Balance != 0L) hash ^= Balance.GetHashCode();
+      if (blockIdentifier_ != null) hash ^= BlockIdentifier.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Balance != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(Balance);
+      }
+      if (blockIdentifier_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(BlockIdentifier);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Balance != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Balance);
+      }
+      if (blockIdentifier_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(BlockIdentifier);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(AccountBalanceResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Balance != 0L) {
+        Balance = other.Balance;
+      }
+      if (other.blockIdentifier_ != null) {
+        if (blockIdentifier_ == null) {
+          BlockIdentifier = new global::Tron.Net.Protocol.BlockBalanceTrace.Types.BlockIdentifier();
+        }
+        BlockIdentifier.MergeFrom(other.BlockIdentifier);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Balance = input.ReadInt64();
+            break;
+          }
+          case 18: {
+            if (blockIdentifier_ == null) {
+              BlockIdentifier = new global::Tron.Net.Protocol.BlockBalanceTrace.Types.BlockIdentifier();
+            }
+            input.ReadMessage(BlockIdentifier);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class FreezeBalanceV2Contract : pb::IMessage<FreezeBalanceV2Contract> {
+    private static readonly pb::MessageParser<FreezeBalanceV2Contract> _parser = new pb::MessageParser<FreezeBalanceV2Contract>(() => new FreezeBalanceV2Contract());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<FreezeBalanceV2Contract> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Tron.Net.Protocol.BalanceContractReflection.Descriptor.MessageTypes[10]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public FreezeBalanceV2Contract() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public FreezeBalanceV2Contract(FreezeBalanceV2Contract other) : this() {
+      ownerAddress_ = other.ownerAddress_;
+      frozenBalance_ = other.frozenBalance_;
+      resource_ = other.resource_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public FreezeBalanceV2Contract Clone() {
+      return new FreezeBalanceV2Contract(this);
+    }
+
+    /// <summary>Field number for the "owner_address" field.</summary>
+    public const int OwnerAddressFieldNumber = 1;
+    private pb::ByteString ownerAddress_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pb::ByteString OwnerAddress {
+      get { return ownerAddress_; }
+      set {
+        ownerAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "frozen_balance" field.</summary>
+    public const int FrozenBalanceFieldNumber = 2;
+    private long frozenBalance_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long FrozenBalance {
+      get { return frozenBalance_; }
+      set {
+        frozenBalance_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "resource" field.</summary>
+    public const int ResourceFieldNumber = 3;
+    private global::Tron.Net.Protocol.ResourceCode resource_ = global::Tron.Net.Protocol.ResourceCode.Bandwidth;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Tron.Net.Protocol.ResourceCode Resource {
+      get { return resource_; }
+      set {
+        resource_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as FreezeBalanceV2Contract);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(FreezeBalanceV2Contract other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (OwnerAddress != other.OwnerAddress) return false;
+      if (FrozenBalance != other.FrozenBalance) return false;
+      if (Resource != other.Resource) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (OwnerAddress.Length != 0) hash ^= OwnerAddress.GetHashCode();
+      if (FrozenBalance != 0L) hash ^= FrozenBalance.GetHashCode();
+      if (Resource != global::Tron.Net.Protocol.ResourceCode.Bandwidth) hash ^= Resource.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (OwnerAddress.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(OwnerAddress);
+      }
+      if (FrozenBalance != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(FrozenBalance);
+      }
+      if (Resource != global::Tron.Net.Protocol.ResourceCode.Bandwidth) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) Resource);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (OwnerAddress.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(OwnerAddress);
+      }
+      if (FrozenBalance != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(FrozenBalance);
+      }
+      if (Resource != global::Tron.Net.Protocol.ResourceCode.Bandwidth) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Resource);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(FreezeBalanceV2Contract other) {
+      if (other == null) {
+        return;
+      }
+      if (other.OwnerAddress.Length != 0) {
+        OwnerAddress = other.OwnerAddress;
+      }
+      if (other.FrozenBalance != 0L) {
+        FrozenBalance = other.FrozenBalance;
+      }
+      if (other.Resource != global::Tron.Net.Protocol.ResourceCode.Bandwidth) {
+        Resource = other.Resource;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            OwnerAddress = input.ReadBytes();
+            break;
+          }
+          case 16: {
+            FrozenBalance = input.ReadInt64();
+            break;
+          }
+          case 24: {
+            Resource = (global::Tron.Net.Protocol.ResourceCode) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class UnfreezeBalanceV2Contract : pb::IMessage<UnfreezeBalanceV2Contract> {
+    private static readonly pb::MessageParser<UnfreezeBalanceV2Contract> _parser = new pb::MessageParser<UnfreezeBalanceV2Contract>(() => new UnfreezeBalanceV2Contract());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UnfreezeBalanceV2Contract> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Tron.Net.Protocol.BalanceContractReflection.Descriptor.MessageTypes[11]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UnfreezeBalanceV2Contract() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UnfreezeBalanceV2Contract(UnfreezeBalanceV2Contract other) : this() {
+      ownerAddress_ = other.ownerAddress_;
+      unfreezeBalance_ = other.unfreezeBalance_;
+      resource_ = other.resource_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UnfreezeBalanceV2Contract Clone() {
+      return new UnfreezeBalanceV2Contract(this);
+    }
+
+    /// <summary>Field number for the "owner_address" field.</summary>
+    public const int OwnerAddressFieldNumber = 1;
+    private pb::ByteString ownerAddress_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pb::ByteString OwnerAddress {
+      get { return ownerAddress_; }
+      set {
+        ownerAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "unfreeze_balance" field.</summary>
+    public const int UnfreezeBalanceFieldNumber = 2;
+    private long unfreezeBalance_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long UnfreezeBalance {
+      get { return unfreezeBalance_; }
+      set {
+        unfreezeBalance_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "resource" field.</summary>
+    public const int ResourceFieldNumber = 3;
+    private global::Tron.Net.Protocol.ResourceCode resource_ = global::Tron.Net.Protocol.ResourceCode.Bandwidth;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Tron.Net.Protocol.ResourceCode Resource {
+      get { return resource_; }
+      set {
+        resource_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UnfreezeBalanceV2Contract);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UnfreezeBalanceV2Contract other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (OwnerAddress != other.OwnerAddress) return false;
+      if (UnfreezeBalance != other.UnfreezeBalance) return false;
+      if (Resource != other.Resource) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (OwnerAddress.Length != 0) hash ^= OwnerAddress.GetHashCode();
+      if (UnfreezeBalance != 0L) hash ^= UnfreezeBalance.GetHashCode();
+      if (Resource != global::Tron.Net.Protocol.ResourceCode.Bandwidth) hash ^= Resource.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (OwnerAddress.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(OwnerAddress);
+      }
+      if (UnfreezeBalance != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(UnfreezeBalance);
+      }
+      if (Resource != global::Tron.Net.Protocol.ResourceCode.Bandwidth) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) Resource);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (OwnerAddress.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(OwnerAddress);
+      }
+      if (UnfreezeBalance != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(UnfreezeBalance);
+      }
+      if (Resource != global::Tron.Net.Protocol.ResourceCode.Bandwidth) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Resource);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UnfreezeBalanceV2Contract other) {
+      if (other == null) {
+        return;
+      }
+      if (other.OwnerAddress.Length != 0) {
+        OwnerAddress = other.OwnerAddress;
+      }
+      if (other.UnfreezeBalance != 0L) {
+        UnfreezeBalance = other.UnfreezeBalance;
+      }
+      if (other.Resource != global::Tron.Net.Protocol.ResourceCode.Bandwidth) {
+        Resource = other.Resource;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            OwnerAddress = input.ReadBytes();
+            break;
+          }
+          case 16: {
+            UnfreezeBalance = input.ReadInt64();
+            break;
+          }
+          case 24: {
+            Resource = (global::Tron.Net.Protocol.ResourceCode) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class WithdrawExpireUnfreezeContract : pb::IMessage<WithdrawExpireUnfreezeContract> {
+    private static readonly pb::MessageParser<WithdrawExpireUnfreezeContract> _parser = new pb::MessageParser<WithdrawExpireUnfreezeContract>(() => new WithdrawExpireUnfreezeContract());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<WithdrawExpireUnfreezeContract> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Tron.Net.Protocol.BalanceContractReflection.Descriptor.MessageTypes[12]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WithdrawExpireUnfreezeContract() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WithdrawExpireUnfreezeContract(WithdrawExpireUnfreezeContract other) : this() {
+      ownerAddress_ = other.ownerAddress_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WithdrawExpireUnfreezeContract Clone() {
+      return new WithdrawExpireUnfreezeContract(this);
+    }
+
+    /// <summary>Field number for the "owner_address" field.</summary>
+    public const int OwnerAddressFieldNumber = 1;
+    private pb::ByteString ownerAddress_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pb::ByteString OwnerAddress {
+      get { return ownerAddress_; }
+      set {
+        ownerAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as WithdrawExpireUnfreezeContract);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(WithdrawExpireUnfreezeContract other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (OwnerAddress != other.OwnerAddress) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (OwnerAddress.Length != 0) hash ^= OwnerAddress.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (OwnerAddress.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(OwnerAddress);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (OwnerAddress.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(OwnerAddress);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(WithdrawExpireUnfreezeContract other) {
+      if (other == null) {
+        return;
+      }
+      if (other.OwnerAddress.Length != 0) {
+        OwnerAddress = other.OwnerAddress;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            OwnerAddress = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class DelegateResourceContract : pb::IMessage<DelegateResourceContract> {
+    private static readonly pb::MessageParser<DelegateResourceContract> _parser = new pb::MessageParser<DelegateResourceContract>(() => new DelegateResourceContract());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DelegateResourceContract> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Tron.Net.Protocol.BalanceContractReflection.Descriptor.MessageTypes[13]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DelegateResourceContract() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DelegateResourceContract(DelegateResourceContract other) : this() {
+      ownerAddress_ = other.ownerAddress_;
+      resource_ = other.resource_;
+      balance_ = other.balance_;
+      receiverAddress_ = other.receiverAddress_;
+      lock_ = other.lock_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DelegateResourceContract Clone() {
+      return new DelegateResourceContract(this);
+    }
+
+    /// <summary>Field number for the "owner_address" field.</summary>
+    public const int OwnerAddressFieldNumber = 1;
+    private pb::ByteString ownerAddress_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pb::ByteString OwnerAddress {
+      get { return ownerAddress_; }
+      set {
+        ownerAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "resource" field.</summary>
+    public const int ResourceFieldNumber = 2;
+    private global::Tron.Net.Protocol.ResourceCode resource_ = global::Tron.Net.Protocol.ResourceCode.Bandwidth;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Tron.Net.Protocol.ResourceCode Resource {
+      get { return resource_; }
+      set {
+        resource_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "balance" field.</summary>
+    public const int BalanceFieldNumber = 3;
+    private long balance_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long Balance {
+      get { return balance_; }
+      set {
+        balance_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "receiver_address" field.</summary>
+    public const int ReceiverAddressFieldNumber = 4;
+    private pb::ByteString receiverAddress_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pb::ByteString ReceiverAddress {
+      get { return receiverAddress_; }
+      set {
+        receiverAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "lock" field.</summary>
+    public const int LockFieldNumber = 5;
+    private bool lock_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Lock {
+      get { return lock_; }
+      set {
+        lock_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DelegateResourceContract);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DelegateResourceContract other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (OwnerAddress != other.OwnerAddress) return false;
+      if (Resource != other.Resource) return false;
+      if (Balance != other.Balance) return false;
+      if (ReceiverAddress != other.ReceiverAddress) return false;
+      if (Lock != other.Lock) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (OwnerAddress.Length != 0) hash ^= OwnerAddress.GetHashCode();
+      if (Resource != global::Tron.Net.Protocol.ResourceCode.Bandwidth) hash ^= Resource.GetHashCode();
+      if (Balance != 0L) hash ^= Balance.GetHashCode();
+      if (ReceiverAddress.Length != 0) hash ^= ReceiverAddress.GetHashCode();
+      if (Lock != false) hash ^= Lock.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (OwnerAddress.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(OwnerAddress);
+      }
+      if (Resource != global::Tron.Net.Protocol.ResourceCode.Bandwidth) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) Resource);
+      }
+      if (Balance != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(Balance);
+      }
+      if (ReceiverAddress.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteBytes(ReceiverAddress);
+      }
+      if (Lock != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(Lock);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (OwnerAddress.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(OwnerAddress);
+      }
+      if (Resource != global::Tron.Net.Protocol.ResourceCode.Bandwidth) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Resource);
+      }
+      if (Balance != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Balance);
+      }
+      if (ReceiverAddress.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(ReceiverAddress);
+      }
+      if (Lock != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DelegateResourceContract other) {
+      if (other == null) {
+        return;
+      }
+      if (other.OwnerAddress.Length != 0) {
+        OwnerAddress = other.OwnerAddress;
+      }
+      if (other.Resource != global::Tron.Net.Protocol.ResourceCode.Bandwidth) {
+        Resource = other.Resource;
+      }
+      if (other.Balance != 0L) {
+        Balance = other.Balance;
+      }
+      if (other.ReceiverAddress.Length != 0) {
+        ReceiverAddress = other.ReceiverAddress;
+      }
+      if (other.Lock != false) {
+        Lock = other.Lock;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            OwnerAddress = input.ReadBytes();
+            break;
+          }
+          case 16: {
+            Resource = (global::Tron.Net.Protocol.ResourceCode) input.ReadEnum();
+            break;
+          }
+          case 24: {
+            Balance = input.ReadInt64();
+            break;
+          }
+          case 34: {
+            ReceiverAddress = input.ReadBytes();
+            break;
+          }
+          case 40: {
+            Lock = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class UnDelegateResourceContract : pb::IMessage<UnDelegateResourceContract> {
+    private static readonly pb::MessageParser<UnDelegateResourceContract> _parser = new pb::MessageParser<UnDelegateResourceContract>(() => new UnDelegateResourceContract());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UnDelegateResourceContract> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Tron.Net.Protocol.BalanceContractReflection.Descriptor.MessageTypes[14]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UnDelegateResourceContract() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UnDelegateResourceContract(UnDelegateResourceContract other) : this() {
+      ownerAddress_ = other.ownerAddress_;
+      resource_ = other.resource_;
+      balance_ = other.balance_;
+      receiverAddress_ = other.receiverAddress_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UnDelegateResourceContract Clone() {
+      return new UnDelegateResourceContract(this);
+    }
+
+    /// <summary>Field number for the "owner_address" field.</summary>
+    public const int OwnerAddressFieldNumber = 1;
+    private pb::ByteString ownerAddress_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pb::ByteString OwnerAddress {
+      get { return ownerAddress_; }
+      set {
+        ownerAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "resource" field.</summary>
+    public const int ResourceFieldNumber = 2;
+    private global::Tron.Net.Protocol.ResourceCode resource_ = global::Tron.Net.Protocol.ResourceCode.Bandwidth;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Tron.Net.Protocol.ResourceCode Resource {
+      get { return resource_; }
+      set {
+        resource_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "balance" field.</summary>
+    public const int BalanceFieldNumber = 3;
+    private long balance_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long Balance {
+      get { return balance_; }
+      set {
+        balance_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "receiver_address" field.</summary>
+    public const int ReceiverAddressFieldNumber = 4;
+    private pb::ByteString receiverAddress_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pb::ByteString ReceiverAddress {
+      get { return receiverAddress_; }
+      set {
+        receiverAddress_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UnDelegateResourceContract);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UnDelegateResourceContract other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (OwnerAddress != other.OwnerAddress) return false;
+      if (Resource != other.Resource) return false;
+      if (Balance != other.Balance) return false;
+      if (ReceiverAddress != other.ReceiverAddress) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (OwnerAddress.Length != 0) hash ^= OwnerAddress.GetHashCode();
+      if (Resource != global::Tron.Net.Protocol.ResourceCode.Bandwidth) hash ^= Resource.GetHashCode();
+      if (Balance != 0L) hash ^= Balance.GetHashCode();
+      if (ReceiverAddress.Length != 0) hash ^= ReceiverAddress.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (OwnerAddress.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteBytes(OwnerAddress);
+      }
+      if (Resource != global::Tron.Net.Protocol.ResourceCode.Bandwidth) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) Resource);
+      }
+      if (Balance != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(Balance);
+      }
+      if (ReceiverAddress.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteBytes(ReceiverAddress);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (OwnerAddress.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(OwnerAddress);
+      }
+      if (Resource != global::Tron.Net.Protocol.ResourceCode.Bandwidth) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Resource);
+      }
+      if (Balance != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Balance);
+      }
+      if (ReceiverAddress.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(ReceiverAddress);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UnDelegateResourceContract other) {
+      if (other == null) {
+        return;
+      }
+      if (other.OwnerAddress.Length != 0) {
+        OwnerAddress = other.OwnerAddress;
+      }
+      if (other.Resource != global::Tron.Net.Protocol.ResourceCode.Bandwidth) {
+        Resource = other.Resource;
+      }
+      if (other.Balance != 0L) {
+        Balance = other.Balance;
+      }
+      if (other.ReceiverAddress.Length != 0) {
+        ReceiverAddress = other.ReceiverAddress;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            OwnerAddress = input.ReadBytes();
+            break;
+          }
+          case 16: {
+            Resource = (global::Tron.Net.Protocol.ResourceCode) input.ReadEnum();
+            break;
+          }
+          case 24: {
+            Balance = input.ReadInt64();
+            break;
+          }
+          case 34: {
+            ReceiverAddress = input.ReadBytes();
             break;
           }
         }

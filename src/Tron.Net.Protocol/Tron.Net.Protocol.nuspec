@@ -3,16 +3,16 @@
   <metadata>
     <id>Tron.Net.Protocol</id>
     <version>4.0.0</version>
-    <authors>https://github.com/griffo-io</authors>
-    <owners>https://github.com/griffo-io</owners>
+    <authors>https://github.com/whosexx</authors>
+    <owners>https://github.com/whosexx</owners>
     <tags>Tron</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="file">LICENSE.txt</license>
-    <projectUrl>https://github.com/griffo-io/tron.net.protocol</projectUrl>
+    <projectUrl>https://github.com/whosexx/tron.net.protocol</projectUrl>
     <icon>tron-logo.jpg</icon>	
     <description>Tron Protocol GRPC calls</description>
     <copyright>griffo.io</copyright>
-    <repository url="https://github.com/griffo-io/tron.net.protocol" />
+    <repository url="https://github.com/whosexx/tron.net.protocol" />
     <releaseNotes>Updated to GreatVoyage-v4.0.0</releaseNotes>
     <dependencies>
         <group targetFramework=".NETFramework4.5">
